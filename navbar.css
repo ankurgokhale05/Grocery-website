@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e8eff9;
+}
+
+li{
+	display : inline;
+	float: left;
+}
+
+a {
+	color : green;
+    display: block;
+	text-decoration: none;
+	font-size:19pt;
+}
+
+a:hover {
+	box-shadow: 5px 5px 5px #888888;
+	color : orange;
+    background-color: green;
+}
+
+li a {
+	background-color : #e8eff9;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+	color : green;
+    text-decoration: none;
+	font-size:13pt;
+
+}
+
+li a:hover {
+	color : orange;
+    background-color: green;
+}
+
+img:hover {
+	opacity : 0.2;
+	z-index : -2;
+}
+
+	
